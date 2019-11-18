@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Nav from "../components/molecules/nav/home";
-import Search from "../components/molecules/search/search";
+import Search from "../components/molecules/Search";
 import CircleBtn from "../components/atoms/Button/home/CircleButton";
 
 export default function Home() {

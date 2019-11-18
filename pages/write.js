@@ -1,8 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import styled, { css } from "styled-components";
-
-import Search from "../components/molecules/search/search";
+import Search from "../components/molecules/Search";
 
 export default function Write() {
   return (

@@ -1,16 +1,19 @@
 import React from "react";
 import Link from "next/link";
 import styled, { css } from "styled-components";
-import SearchIcon from "../../atoms/Button/icon/search";
+import SearchIcon from "../atoms/Button/Icon/search.jsx";
 
 export default function SearchForm() {
   return (
     <Form>
       <Input type="text" name="keyword" placeholder="지역을 검색하세요"></Input>
-      <Link>
+      <Link href="index">
         <Button type="submit">
           <a>
-            <SearchIcon style={{ width: "2rem", height: "2rem " }}></SearchIcon>
+            <SearchIcon
+              style={{ width: "2rem", height: "2rem " }}
+              fill="#333"
+            ></SearchIcon>
           </a>
         </Button>
       </Link>
