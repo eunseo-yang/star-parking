@@ -2,7 +2,6 @@ import React from "react";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-import "../bootstrap-4.3.1-dist/css/bootstrap.css";
 
 import styled, { createGlobalStyle } from "styled-components";
 

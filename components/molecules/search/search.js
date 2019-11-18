@@ -3,7 +3,7 @@ import Link from "next/link";
 import styled, { css } from "styled-components";
 import SearchIcon from "../../atoms/Button/icon/search";
 
-function searchForm() {
+export default function SearchForm() {
   return (
     <Form>
       <Input type="text" name="keyword" placeholder="지역을 검색하세요"></Input>
@@ -44,5 +44,3 @@ const Button = styled.button`
   border: none;
   background-color: transparent;
 `;
-
-export default searchForm;
