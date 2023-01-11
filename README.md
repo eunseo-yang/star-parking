@@ -22,14 +22,14 @@
   <li> html</li>
   <li> css </li>
   <li> javascript </li>
-  <li> 구글 Map API </li>
+  <li> google map API </li>
   <li> php  </li>
   <li> mysql </li>
   <li> python </li>
 </ul>
 </p>
 
-<h2>개발자</h2>
+<h2></h2>
 <p>
 <ul>
   <li> 프론트엔드 : 정아연, 함초롬 </li>
